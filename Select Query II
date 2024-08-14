@@ -1,0 +1,17 @@
+//
+CREATE TABLE CITY (
+    ID NUMBER,
+    NAME VARCHAR2(17),
+    COUNTRYCODE VARCHAR2 (3),
+    DISTRICTVARCHAR2 (20),
+    POPULATION NUMBER
+                  );
+//
+
+SELECT * FROM CITY;  //Select All
+SELECT * FROM CITY WHERE ID= 1661;     //Select By ID
+SELECT NAME FROM CITY WHERE COUNTRYCODE ="USA" and POPULATION > 120000;     //Revising the Select Query II
+SELECT * FROM CITY WHERE COUNTRYCODE= "JPN";      //Japanese Cities' Attributes
+SELECT NAME FROM CITY WHERE COUNTRYCODE ="JPN";   //Japanese Cities' Names
+
+
